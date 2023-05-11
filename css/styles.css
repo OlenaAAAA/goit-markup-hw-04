@@ -164,11 +164,13 @@ img {
   background-color: var(--accent-color);
   padding-top: 188px;
   padding-bottom: 188px;
-  /* max-width: 1158px; */
   margin: auto;
-  /* outline-color: fuchsia;
-  outline-width: 10px;
-  outline-style: solid; */
+  background-image: linear-gradient(
+    rgba(46, 47, 66, 0.7),
+    rgba(46, 47, 66, 0.7)),
+     url('../images/people-office.jpg');
+  max-width: 1440px;
+  border: 1px solid #000000;
 }
 /* зайве посилання. такого диву не треба і в всс */
 .section-hero-container {
@@ -223,6 +225,7 @@ img {
   letter-spacing: 0.02em;
   color: var(--accent-color);
   margin-bottom: 8px;
+  margin-top: 8px;
 }
 
 .paragraf-description {
@@ -258,6 +261,18 @@ img {
   gap: 24px;
 }
 
+.features-logo {
+  display: block;
+  box-sizing: content-box;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  padding-left: auto;
+  padding-right: auto;
+  /* margin-top: 24px;
+  margin-bottom: 24px;
+  margin-left: auto;
+  margin-right: auto; */
+}
 /* SECTION 3 */
 
 .main-page-fotos {
