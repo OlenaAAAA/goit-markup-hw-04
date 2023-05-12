@@ -89,7 +89,7 @@ img {
 }
 
 .menu-item {
-  display:block;
+  display: block;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -166,11 +166,13 @@ img {
   padding-bottom: 188px;
   margin: auto;
   background-image: linear-gradient(
-    rgba(46, 47, 66, 0.7),
-    rgba(46, 47, 66, 0.7)),
-     url('../images/people-office.jpg');
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url('../images/people-office.jpg');
   max-width: 1440px;
   border: 1px solid #000000;
+  background-size: cover;
 }
 /* зайве посилання. такого диву не треба і в всс */
 .section-hero-container {
@@ -261,13 +263,27 @@ img {
   gap: 24px;
 }
 
-.features-logo {
-  display: block;
-  box-sizing: content-box;
-  padding-top: 24px;
+.features-list-item-icon {
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  /* padding-top: 24px;
   padding-bottom: 24px;
   padding-left: auto;
-  padding-right: auto;
+  padding-right: auto; */
+  margin-top: 24px;
+  margin-bottom: 24px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.features-icon {
+  display: block;
+  box-sizing: content-box;
+  /* padding-top: 24px;
+  padding-bottom: 24px; */
+  /* padding-left: auto;
+  padding-right: auto; */
   /* margin-top: 24px;
   margin-bottom: 24px;
   margin-left: auto;
@@ -316,7 +332,7 @@ img {
   margin-bottom: 72px;
 }
 
-.section-team-name {
+/* .section-team-name {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
@@ -324,7 +340,7 @@ img {
   text-align: center;
   text-transform: capitalize;
   color: var(--accent-color);
-}
+} */
 
 .section-team {
   background-color: var(--cloud-color);
@@ -367,7 +383,43 @@ img {
   letter-spacing: 0.02em;
   color: var(--slate-color);
   text-align: center;
+  margin-bottom: 8px;
 }
+
+.social-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+}
+
+.social-list-link {
+  display: block;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: var(--color);
+  background-repeat: no-repeat;
+}
+
+.social-list-icon {
+  display: flex;
+  fill: var(--cloud-color);
+  margin: auto;
+  align-items: center;
+}
+
+/* SECTION 5 */
+
+.section-customers {
+  padding: 120px 0;
+}
+.customers-list {
+  display: flex;
+  gap: 24px;
+  width: 1128px;
+}
+
 /* FOOTER */
 
 .main-footer {
