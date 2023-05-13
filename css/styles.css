@@ -451,8 +451,6 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
-  /* width: 104px;
-  height: 56px; */
   fill: currentColor;
 }
 .customers-item {
@@ -465,13 +463,14 @@ img {
   border-radius: 4px;
   color: var(--light-slate-color);
 }
-.customers-item:hover .customers-item-logo,
+/* .customers-item:hover .customers-item-logo,
 .customers-item:focus .customers-item-logo {
   color: var(--ocean-color);
-}
+} */
 .customers-item:hover,
 .customers-item:focus {
   border: 1px solid var(--ocean-color);
+  color: var(--ocean-color);
 }
 /* .customers-logo {
   display: flex;
