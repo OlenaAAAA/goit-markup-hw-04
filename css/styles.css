@@ -467,7 +467,7 @@ img {
 }
 .customers-item:hover .customers-item-logo,
 .customers-item:focus .customers-item-logo {
-  fill: var(--ocean-color);
+  color: var(--ocean-color);
 }
 .customers-item:hover,
 .customers-item:focus {
